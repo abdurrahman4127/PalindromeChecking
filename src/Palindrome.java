@@ -7,7 +7,7 @@ public class Palindrome {
         int n = scanner.nextInt();
 
         int rem, rev = 0, mainNum;
-        mainNum = n; // copying n
+        mainNum = n; // copying given number to match with it later
 
         while(n != 0) {
             rem = n % 10;
